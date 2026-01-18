@@ -3,7 +3,8 @@ import React from "react";
 function ExamplePage(props) {
   const { baseUrl } = props;
   const handleClick = () => {
-    window.location.href = `${baseUrl}`;
+    console.log(baseUrl);
+    window.location.href = `${baseUrl}/wordpress-React`;
   };
   return (
     <div className="w-full">

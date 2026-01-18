@@ -67,7 +67,7 @@ To make customizations that won't be overwritten by updates, create a child them
 2. Create a `style.css` file with the following header:
    ```css
    /*
-   Theme Name:     Great React Theme Child
+   Theme Name:     Great React Theme 
    Template:       react_theme
    */
    ```

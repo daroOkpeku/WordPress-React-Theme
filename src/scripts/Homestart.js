@@ -5,7 +5,7 @@ function Homestart(props) {
   const { baseUrl } = props;
   const [count, Setcount] = useState(0);
   const handleClick = () => {
-    window.location.href = `${baseUrl}#/about`;
+    window.location.href = `${baseUrl}/wordpress-React//#/about`;
   };
   return (
     <div className="w-full">

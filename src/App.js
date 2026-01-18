@@ -6,7 +6,7 @@ import ExamplePage from "./scripts/ExamplePage";
 function App() {
   const pageType = document.getElementById("home")?.getAttribute("data-page");
 
-  const baseUrl = window.location.href || "/";
+  const baseUrl = window.location.origin || "/";
   return (
     <HashRouter>
       {/* <nav>{"navigator link"}</nav> */}
